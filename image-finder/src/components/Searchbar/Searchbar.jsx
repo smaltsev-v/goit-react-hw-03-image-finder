@@ -20,7 +20,7 @@ export default class Searchbar extends Component{
     e.preventDefault();
 
     if (this.state.inquiry.trim() === '') {
-      toast.error('Введите запрос ');
+      toast.error('Введите запрос... ');
       return;
     }
 
