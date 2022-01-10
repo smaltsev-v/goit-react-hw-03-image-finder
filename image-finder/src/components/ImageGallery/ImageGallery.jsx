@@ -6,7 +6,7 @@ import ImageGalleryItem from './ImageGalleryItem';
 
 const ImageGallery = ({ onClick, hits }) => {
   return (
-    <ul className={s.gallery}>
+    <ul className={s.ImageGallery}>
       {hits.map(({ id, webformatURL, largeImageURL, tags }) => {
         return (
           <ImageGalleryItem

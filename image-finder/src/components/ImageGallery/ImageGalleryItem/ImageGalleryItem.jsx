@@ -3,9 +3,9 @@ import s from './ImageGalleryItem.module.css';
 
 const ImageGalleryItem = ({ webformatURL, largeImg, tags, onClick }) => {
   return (
-    <li className={s.imggalleryitem} onClick={onClick}>
+    <li className={s.item} onClick={onClick}>
       <img
-        className={s.imggalleryitem__image}
+        className={s.itemImage}
         src={webformatURL}
         alt={tags}
         data-src={largeImg}
